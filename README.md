@@ -142,6 +142,10 @@ The system is designed to handle multiple clients and storage servers concurrent
 
 The NFS system supports dynamic scaling by allowing storage servers to join or leave the network seamlessly.
 
+### Music streaming:
+
+The system is capable of streaming audio files of any size over the server.
+
 ### Caching Mechanism (LRU):
 
 Implement a caching mechanism based on the Least Recently Used (LRU) policy to enhance performance. This feature stores frequently accessed files in memory, ensuring quick access to recently used files while optimizing overall system efficiency. The LRU policy helps manage cache space by evicting the least recently used files when the cache reaches its capacity, maintaining a balance between memory utilization and performance.
